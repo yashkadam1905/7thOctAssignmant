@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <title>Q1</title>
+    <style>
+.image-gallary{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.image1{
+grid-area: 1 / 1 / 3 / 2; 
+}
+.image2{
+grid-area: 1 / 3 / 2 / 4;
+}
+.image3{
+grid-area: 1 / 3 / 4 / 2;
+}
+.image4{
+grid-area: 2 / 1 / 4 / 2;
+}
+.image5{
+grid-area: 3 / 2 / 4 / 3;
+}
+.image6{
+grid-area: 2 / 3 / 4 / 4;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+    </style>
+</head>
+
+<body>
+    <div class="image-gallary">
+        <div class="image1">
+            <img src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?" alt="image1">
+        </div>
+        <div class="image2">
+            <img src="https://images.pexels.com/photos/34299/herbs-flavoring-seasoning-cooking.jpg?" alt="image2">
+        </div>
+        <div class="image3">
+            <img src="https://images.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="image3">
+        </div>
+        <div class="image4">
+            <img src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?" alt="image4">
+        </div>
+        <div class="image5">
+            <img src="https://images.pexels.com/photos/6074935/pexels-photo-6074935.jpeg?" alt="image5">
+        </div>
+        <div class="image6">
+            <img src="https://images.pexels.com/photos/4210610/pexels-photo-4210610.jpeg?" alt="image6">
+        </div>
+    </div>
+
+
+</body>
+
+</html>

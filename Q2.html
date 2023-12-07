@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+    <style>
+        .container {
+            border: 1px solid black;
+            padding: 20px;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 100px 100px 100px;
+        }
+
+        .box {
+            background-color: bisque;
+            color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+            color: black;
+        }
+
+        .boxA {
+            grid-column: 1;
+            grid-row: 1 / 3;
+        }
+
+        .boxB {
+            grid-column:  1/ 3;
+
+
+            grid-row: 3;
+        }
+
+        .boxC {
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .boxD {
+            grid-column: 2;
+            grid-row: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box boxA">A</div>
+        <div class="box boxB">B</div>
+        <div class="box boxC">C</div>
+        <div class="box boxD">D</div>
+    </div>
+</body>
+
+</html>
